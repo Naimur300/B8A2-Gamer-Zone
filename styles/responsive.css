@@ -43,4 +43,10 @@
         padding: 10px;
     }
 
+    /* banner part responsive end  */
+
+    .online-game-img-container{
+        flex-direction: column;
+    }
+
 }
