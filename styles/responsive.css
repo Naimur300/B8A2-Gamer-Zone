@@ -27,4 +27,20 @@
         
     }
 
+    /* nav part responsive end  */
+
+    .banner-container{
+       
+       flex-direction: column-reverse;
+        
+    }
+    .banner-img{
+        width: 100%;
+    }
+    .banner-content{
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+
 }
