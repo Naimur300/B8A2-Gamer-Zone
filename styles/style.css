@@ -187,7 +187,7 @@ padding: 18px 24px;
 .play-container{
     display: flex;
     max-width: 1440px;
-    margin: 120px auto;
+    margin: 140px auto;
     align-items: center;
 }
 .play-content{
@@ -229,4 +229,39 @@ padding: 18px 24px;
     font-weight: 400;
     gap: 7px;
 }
-/* plat style end  */
+/* play style end  */
+
+/* game-type part style start  */
+    .game-type-container{
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+    .game-type-img{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        border-radius: 50px;
+        background: #FFF;
+    }
+    .first-row{
+        /* display: grid;
+        grid-template-columns: repeat(5,1fr); */
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto 50px;
+    }
+    .second-row{
+        /* display: grid;
+        grid-template-columns: repeat(4,1fr); */
+        display: flex;
+        justify-content: space-between;
+        margin-left: 200px;
+        margin-right: 150px;
+        gap: 5px;
+    }
+    .img4{
+        margin-right: 40px;
+    }
+   
+/* game-type part style end  */
+
