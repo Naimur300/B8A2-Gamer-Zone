@@ -49,4 +49,24 @@
         flex-direction: column;
     }
 
+    /* online game part responsive end  */
+    .play-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 40px;
+    }
+    .play-content{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .play-img{
+        width: 100%;
+        margin: 15px auto;
+    }
+    .game-img{
+        width: 160px;
+        height: 160px;
+    }
+
 }
