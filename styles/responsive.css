@@ -1,0 +1,30 @@
+@media screen and (max-width:425px) {
+    .nav-container{
+        flex-direction: column;
+    }
+    .logo-container{
+        flex-direction: column;
+    }
+    .nav-items ul{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .last-li{
+        padding: 10px 10px;
+    }
+    .follow{
+        margin-bottom: 20px;
+    }
+    .fa-brands{
+        width: 40px;
+        height: 32px;
+    }
+    .logo-container{
+        width: 100%;
+    }
+    .nav-items{
+        width: 100%;
+        
+    }
+
+}
