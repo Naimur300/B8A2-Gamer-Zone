@@ -235,33 +235,34 @@ padding: 18px 24px;
     .game-type-container{
         max-width: 1440px;
         margin: 0 auto;
+        gap: 15px;
     }
     .game-type-img{
         display: flex;
         align-items: center;
-        gap: 10px;
+        gap: 20px;
         border-radius: 50px;
         background: #FFF;
+
     }
     .first-row{
-        /* display: grid;
-        grid-template-columns: repeat(5,1fr); */
+    
+       
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
         margin: 0 auto 50px;
     }
-    .second-row{
-        /* display: grid;
-        grid-template-columns: repeat(4,1fr); */
+    .second-row{ 
+    
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
         margin-left: 200px;
         margin-right: 150px;
         gap: 5px;
     }
-    .img4{
-        margin-right: 40px;
-    }
+
    
 /* game-type part style end  */
 
